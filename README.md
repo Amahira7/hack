@@ -32,3 +32,4 @@ Backend: `http://localhost:5000`
 - Tailwind CSS is configured in the `client/` folder with Vite.
 
 
+![Business Module](assets/businessmodule.png)
