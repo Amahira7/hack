@@ -1,0 +1,20 @@
+{
+  "name": "hack-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack React (Tailwind) + Express app with Gemini API proxy",
+  "scripts": {
+    "dev": "concurrently -c \"green,cyan\" -n \"server,client\" \"npm:dev-server\" \"npm:dev-client\"",
+    "dev-server": "npm run dev --prefix server",
+    "dev-client": "npm run dev --prefix client",
+    "install-all": "npm i && npm i --prefix server && npm i --prefix client",
+    "build": "npm run build --prefix client",
+    "preview": "npm run preview --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "dependencies": {
+    "all": "^0.0.0"
+  }
+}
