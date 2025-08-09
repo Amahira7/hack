@@ -31,5 +31,3 @@ Backend: `http://localhost:5000`
 - The backend uses `axios` to call the Gemini API and returns JSON like `{ text, raw }`.
 - Tailwind CSS is configured in the `client/` folder with Vite.
 
-
-![Business Module](assets/businessmodule.png)
